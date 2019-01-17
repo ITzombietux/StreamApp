@@ -1,0 +1,1367 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BFCancellationToken.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenRegistration.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenSource.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFExecutor.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFExecutor.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFGeneric.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFGeneric.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTask.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTaskCompletionSource.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-Swift.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-umbrella.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Bolts/Bolts/Common/Bolts.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DateToolsSwift-Swift.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers/DateToolsSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DateToolsSwift-umbrella.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MBProgressHUD-Swift.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD-umbrella.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/MBProgressHUD/MBProgressHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MBProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PFACL.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFACL.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnalytics.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFAnalytics.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnonymousUtils+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFAnonymousUtils+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnonymousUtils.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFAnonymousUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCloud+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFCloud+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCloud+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFCloud+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCloud.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFCloud.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCollectionViewCell.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/Cells/PFCollectionViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFConfig+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFConfig+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFConfig.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFDecoder.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFEncoder.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFEncoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFile+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFFile+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFile+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFFile+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFile.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileUploadController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFFileUploadController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileUploadResult.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFFileUploadResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFGeoPoint.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFGeoPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFImageView.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/Views/PFImageView.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInstallation.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFInstallation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFLogInView.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/LogInViewController/PFLogInView.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFLogInViewController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/LogInViewController/PFLogInViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFLogInView_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/LogInViewController/PFLogInView_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObject+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFObject+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObject+Subclass.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFObject+Subclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObject+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFObject+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObject.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPolygon.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFPolygon.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFProduct.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFProduct.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFProductTableViewController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/ProductTableViewController/PFProductTableViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPurchase.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFPurchase.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPurchaseTableViewCell.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/Cells/PFPurchaseTableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPush+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFPush+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPush+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFPush+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPush.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFPush.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQuery+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFQuery+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQuery+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFQuery+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQuery.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryCollectionViewController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/QueryCollectionViewController/PFQueryCollectionViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryTableViewController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/QueryTableViewController/PFQueryTableViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRelation.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFRelation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRole.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFRole.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSession.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSignUpView.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/SignUpViewController/PFSignUpView.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSignUpViewController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/SignUpViewController/PFSignUpViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSubclassing.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFSubclassing.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFTableViewCell.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/Cells/PFTableViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFTextField.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Classes/Views/PFTextField.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUser+Deprecated.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFUser+Deprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUser+Synchronous.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFUser+Synchronous.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUser.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserAuthenticationDelegate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFUserAuthenticationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "Parse-Swift.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Parse-umbrella.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/Parse/Parse-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Parse.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Parse.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseClientConfiguration.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/ParseClientConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseUIConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/ParseUI/Other/ParseUIConstants.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Parse.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BFTask+Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/BFTask+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFACLPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ACL/PFACLPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFACLState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ACL/State/PFACLState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFACLState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ACL/State/PFACLState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAlertView.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFAlertView.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnalyticsController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Analytics/Controller/PFAnalyticsController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnalyticsUtilities.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Analytics/Utilities/PFAnalyticsUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnalytics_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Analytics/PFAnalytics_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnonymousAuthenticationProvider.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/AuthenticationProviders/Providers/Anonymous/PFAnonymousAuthenticationProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAnonymousUtils_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/AuthenticationProviders/Providers/Anonymous/PFAnonymousUtils_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFApplication.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFApplication.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAssert.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFAssert.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFAsyncTaskQueue.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFAsyncTaskQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFBase64Encoder.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFBase64Encoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFBaseState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFBaseState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCachedQueryController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Controller/PFCachedQueryController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCategoryLoader.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCategoryLoader.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCloudCodeController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/CloudCode/PFCloudCodeController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCommandCache.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCommandCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCommandCache_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCommandCache_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCommandResult.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCommandResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCommandRunning.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/PFCommandRunning.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCommandRunningConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/PFCommandRunningConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCommandURLRequestConstructor.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLRequestConstructor/PFCommandURLRequestConstructor.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFConfigController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Config/Controller/PFConfigController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFConfig_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Config/PFConfig_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCoreDataProvider.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCoreDataProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCoreManager.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCoreManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCurrentConfigController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Config/Controller/PFCurrentConfigController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCurrentInstallationController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/CurrentInstallationController/PFCurrentInstallationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCurrentObjectControlling.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/CurrentController/PFCurrentObjectControlling.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFCurrentUserController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/CurrentUserController/PFCurrentUserController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFDataProvider.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFDataProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFDateFormatter.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFDateFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFDefaultACLController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ACL/DefaultACLController/PFDefaultACLController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFDevice.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFDevice.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFErrorUtilities.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFErrorUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFEventuallyPin.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFEventuallyPin.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFEventuallyQueue.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFEventuallyQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFEventuallyQueue_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFEventuallyQueue_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFieldOperation.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/FieldOperation/PFFieldOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFieldOperationDecoder.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/FieldOperation/PFFieldOperationDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/Controller/PFFileController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileDataStream.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/FileDataStream/PFFileDataStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileManager.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFFileManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFilePersistenceGroup.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Persistence/Group/PFFilePersistenceGroup.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileStagingController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/Controller/PFFileStagingController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/State/PFFileState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFileState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/State/PFFileState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFFile_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/PFFile_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFGeoPointPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFGeoPointPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFHTTPRequest.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/HTTPRequest/PFHTTPRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFHTTPURLRequestConstructor.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/HTTPRequest/PFHTTPURLRequestConstructor.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFHash.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFHash.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInstallationConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/Constants/PFInstallationConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInstallationController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/Controller/PFInstallationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInstallationIdentifierStore.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/InstallationIdentifierStore/PFInstallationIdentifierStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInstallationIdentifierStore_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/InstallationIdentifierStore/PFInstallationIdentifierStore_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInstallationPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/PFInstallationPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFInternalUtils.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFInternalUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFJSONSerialization.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFJSONSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFKeyValueCache.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/KeyValueCache/PFKeyValueCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFKeyValueCache_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/KeyValueCache/PFKeyValueCache_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFKeychainStore.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFKeychainStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFLocationManager.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFLocationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFLogger.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFLogging.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMacros.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMultiProcessFileLock.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/MultiProcessLock/PFMultiProcessFileLock.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMultiProcessFileLockController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/MultiProcessLock/PFMultiProcessFileLockController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMulticastDelegate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFMulticastDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutableACLState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ACL/State/PFMutableACLState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutableFileState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/State/PFMutableFileState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutableObjectState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/State/PFMutableObjectState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutablePushState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/State/PFMutablePushState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutableQueryState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/State/PFMutableQueryState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutableRelationState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Relation/State/PFMutableRelationState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFMutableUserState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/State/PFMutableUserState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFNetworkCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFNetworkCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectBatchController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/BatchController/PFObjectBatchController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Constants/PFObjectConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/PFObjectController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectController_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/PFObjectController_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectControlling.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/PFObjectControlling.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectEstimatedData.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/EstimatedData/PFObjectEstimatedData.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectFileCoder.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Coder/File/PFObjectFileCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectFileCodingLogic.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Coder/File/PFObjectFileCodingLogic.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectFilePersistenceController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/FilePersistence/PFObjectFilePersistenceController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectLocalIdStore.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/LocalIdStore/PFObjectLocalIdStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/PFObjectPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/State/PFObjectState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/State/PFObjectState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectSubclassInfo.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Subclassing/PFObjectSubclassInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectSubclassingController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Subclassing/PFObjectSubclassingController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFObjectUtilities.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Utilities/PFObjectUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFOfflineObjectController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/OfflineController/PFOfflineObjectController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFOfflineQueryController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Controller/PFOfflineQueryController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFOfflineQueryLogic.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/OfflineQueryLogic/PFOfflineQueryLogic.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFOfflineStore.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/OfflineStore/PFOfflineStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFOperationSet.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/OperationSet/PFOperationSet.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPaymentTransactionObserver.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Purchase/PaymentTransactionObserver/PFPaymentTransactionObserver.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPaymentTransactionObserver_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Purchase/PaymentTransactionObserver/PFPaymentTransactionObserver_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPersistenceController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Persistence/PFPersistenceController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPersistenceGroup.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Persistence/Group/PFPersistenceGroup.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPin.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/Pin/PFPin.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPinningEventuallyQueue.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFPinningEventuallyQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPinningObjectStore.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/PinningStore/PFPinningObjectStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPolygonPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFPolygonPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFProduct+Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Product/PFProduct+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFProductsRequestHandler.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Product/ProductsRequestHandler/PFProductsRequestHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPropertyInfo.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PropertyInfo/PFPropertyInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPropertyInfo_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PropertyInfo/PFPropertyInfo_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPropertyInfo_Runtime.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PropertyInfo/PFPropertyInfo_Runtime.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPurchaseController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Purchase/Controller/PFPurchaseController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushChannelsController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/ChannelsController/PFPushChannelsController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/Controller/PFPushController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushManager.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/Manager/PFPushManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/PFPushPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/State/PFPushState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/State/PFPushState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFPushUtilities.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Push/Utilites/PFPushUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/PFQueryConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Controller/PFQueryController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/PFQueryPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/State/PFQueryState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/State/PFQueryState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFQueryUtilities.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Utilities/PFQueryUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTAnalyticsCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTAnalyticsCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTCloudCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTCloudCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTCommand_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTCommand_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTConfigCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTConfigCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTFileCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTFileCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTObjectBatchCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTObjectBatchCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTObjectCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTObjectCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTPushCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTPushCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTQueryCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTQueryCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTSessionCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTSessionCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRESTUserCommand.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/PFRESTUserCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFReachability.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRelationPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Relation/PFRelationPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRelationState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Relation/State/PFRelationState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFRelationState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Relation/State/PFRelationState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSQLiteDatabase.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/SQLite/PFSQLiteDatabase.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSQLiteDatabaseController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/SQLite/PFSQLiteDatabaseController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSQLiteDatabaseResult.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/SQLite/PFSQLiteDatabaseResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSQLiteDatabase_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/SQLite/PFSQLiteDatabase_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSQLiteStatement.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/LocalDataStore/SQLite/PFSQLiteStatement.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSessionController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Session/Controller/PFSessionController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSessionUtilities.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Session/Utilities/PFSessionUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFSession_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Session/PFSession_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFTaskQueue.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFTaskQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFThreadsafety.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ThreadSafety/PFThreadsafety.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLConstructor.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/HTTPRequest/PFURLConstructor.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSession.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/PFURLSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionCommandRunner.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/PFURLSessionCommandRunner.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionCommandRunner_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/PFURLSessionCommandRunner_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionDataTaskDelegate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/TaskDelegate/PFURLSessionDataTaskDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionDataTaskDelegate_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/TaskDelegate/PFURLSessionDataTaskDelegate_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionFileDownloadTaskDelegate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/TaskDelegate/PFURLSessionFileDownloadTaskDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionJSONDataTaskDelegate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/TaskDelegate/PFURLSessionJSONDataTaskDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSessionUploadTaskDelegate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/TaskDelegate/PFURLSessionUploadTaskDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFURLSession_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Commands/CommandRunner/URLSession/Session/PFURLSession_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserAuthenticationController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/AuthenticationProviders/Controller/PFUserAuthenticationController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserConstants.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/Constants/PFUserConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserController.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/Controller/PFUserController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserDefaultsPersistenceGroup.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Persistence/Group/PFUserDefaultsPersistenceGroup.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserFileCodingLogic.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/Coder/File/PFUserFileCodingLogic.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/PFUserPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserState.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/State/PFUserState.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFUserState_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/State/PFUserState_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "PFWeakValue.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFWeakValue.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseClientConfiguration_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ParseClientConfiguration_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseInternal.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ParseInternal.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseManager.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ParseManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseManagerPrivate.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ParseManagerPrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "ParseModule.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ParseModule.h"
+        },
+        {
+          'type': 'file',
+          'name': "Parse_Private.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Parse_Private.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Pods_StreamsApp.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-StreamsApp-umbrella.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_StreamsApp-Swift.h",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Pods_StreamsApp.framework/Headers/Pods_StreamsApp-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Pods_StreamsApp.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-StreamsApp.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

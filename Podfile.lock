@@ -1,0 +1,33 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - DateToolsSwift (4.0.0)
+  - MBProgressHUD (1.1.0)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - Parse/UI (1.17.1):
+    - Parse/Core
+
+DEPENDENCIES:
+  - DateToolsSwift (= 4.0.0)
+  - MBProgressHUD (= 1.1.0)
+  - Parse (= 1.17.1)
+  - Parse/UI (= 1.17.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - DateToolsSwift
+    - MBProgressHUD
+    - Parse
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+
+PODFILE CHECKSUM: b753512ecab0de610ab798c78b50d67bcefdcf8a
+
+COCOAPODS: 1.5.3

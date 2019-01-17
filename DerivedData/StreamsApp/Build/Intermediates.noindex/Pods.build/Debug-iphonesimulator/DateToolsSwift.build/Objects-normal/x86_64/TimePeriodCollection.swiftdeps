@@ -1,0 +1,453 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimePeriodCollection"
+- "=="
+provides-nominal:
+- "14DateToolsSwift20TimePeriodCollectionC"
+provides-member:
+- ["14DateToolsSwift20TimePeriodCollectionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "..<"
+- !private "<"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Date"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "TimePeriodCollection"
+- "TimePeriodGroup"
+- "TimePeriodProtocol"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "init"]
+- !private ["Sa", "insert"]
+- !private ["Sa", "map"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "sort"]
+- !private ["Sa", "sorted"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "beginning"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "end"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "insert"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "remove"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "sort"]
+- !private ["s13ArrayProtocolP", "sorted"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "beginning"]
+- !private ["s10ArraySliceV", "end"]
+- !private ["SK", "append"]
+- !private ["SK", "beginning"]
+- !private ["SK", "count"]
+- !private ["SK", "end"]
+- !private ["SK", "filter"]
+- !private ["SK", "init"]
+- !private ["SK", "insert"]
+- !private ["SK", "map"]
+- !private ["SK", "remove"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "sort"]
+- !private ["SK", "sorted"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "sort"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- !private ["Sl", "beginning"]
+- !private ["Sl", "count"]
+- !private ["Sl", "end"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "map"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "sort"]
+- !private ["Sl", "sorted"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "earlierDate"]
+- !private ["SL", "laterDate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "beginning"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "earlierDate"]
+- !private ["s28CustomDebugStringConvertibleP", "end"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "laterDate"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "sort"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "earlierDate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "laterDate"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "beginning"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "earlierDate"]
+- !private ["s17CustomReflectableP", "end"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "laterDate"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "sort"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "beginning"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "earlierDate"]
+- !private ["s23CustomStringConvertibleP", "end"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "laterDate"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "sort"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation4DateV", "earlierDate"]
+- !private ["10Foundation4DateV", "laterDate"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "earlierDate"]
+- !private ["Se", "filter"]
+- !private ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "laterDate"]
+- !private ["Se", "map"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "sort"]
+- !private ["Se", "sorted"]
+- !private ["Se", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "earlierDate"]
+- !private ["SE", "filter"]
+- !private ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "laterDate"]
+- !private ["SE", "map"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "sort"]
+- !private ["SE", "sorted"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "beginning"]
+- !private ["SQ", "closed"]
+- !private ["SQ", "count"]
+- !private ["SQ", "earlierDate"]
+- !private ["SQ", "end"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "laterDate"]
+- !private ["SQ", "map"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "sort"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "beginning"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "end"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "sort"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "beginning"]
+- !private ["SH", "closed"]
+- !private ["SH", "count"]
+- !private ["SH", "earlierDate"]
+- !private ["SH", "end"]
+- !private ["SH", "filter"]
+- !private ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "laterDate"]
+- !private ["SH", "map"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "sort"]
+- !private ["SH", "sorted"]
+- !private ["SH", "subscript"]
+- !private ["14DateToolsSwift8IntervalO", "closed"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "append"]
+- !private ["SM", "beginning"]
+- !private ["SM", "count"]
+- !private ["SM", "end"]
+- !private ["SM", "filter"]
+- !private ["SM", "init"]
+- !private ["SM", "insert"]
+- !private ["SM", "map"]
+- !private ["SM", "remove"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "sort"]
+- !private ["SM", "sorted"]
+- !private ["SM", "subscript"]
+- !private ["Sk", "append"]
+- !private ["Sk", "beginning"]
+- !private ["Sk", "count"]
+- !private ["Sk", "end"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "init"]
+- !private ["Sk", "insert"]
+- !private ["Sk", "map"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "sort"]
+- !private ["Sk", "sorted"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "beginning"]
+- !private ["Sm", "count"]
+- !private ["Sm", "end"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "map"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "sort"]
+- !private ["Sm", "sorted"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "earlierDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "laterDate"]
+- !private ["ST", "TimePeriodCollection"]
+- !private ["ST", "TimePeriodProtocol"]
+- ["ST", ""]
+- !private ["ST", "_beginning"]
+- !private ["ST", "_end"]
+- !private ["ST", "append"]
+- !private ["ST", "beginning"]
+- !private ["ST", "count"]
+- !private ["ST", "end"]
+- !private ["ST", "equals"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "map"]
+- !private ["ST", "nilOrEarlier"]
+- !private ["ST", "nilOrLater"]
+- !private ["ST", "periods"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "sort"]
+- !private ["ST", "sorted"]
+- !private ["ST", "subscript"]
+- !private ["ST", "updateExtremes"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "=="]
+- ["14DateToolsSwift20TimePeriodCollectionC", "Bool"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "Date"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "Int"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "TimePeriodCollection"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "TimePeriodGroup"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "TimePeriodProtocol"]
+- !private ["14DateToolsSwift20TimePeriodCollectionC", "_beginning"]
+- !private ["14DateToolsSwift20TimePeriodCollectionC", "_end"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "allInside"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "append"]
+- !private ["14DateToolsSwift20TimePeriodCollectionC", "count"]
+- !private ["14DateToolsSwift20TimePeriodCollectionC", "equals"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "init"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "insert"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "map"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "nilOrEarlier"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "nilOrLater"]
+- !private ["14DateToolsSwift20TimePeriodCollectionC", "periods"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "periodsIntersected"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "remove"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "removeAll"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "sort"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "sortByBeginning"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "sorted"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "sortedByBeginning"]
+- ["14DateToolsSwift20TimePeriodCollectionC", "updateExtremes"]
+- ["14DateToolsSwift15TimePeriodGroupC", "=="]
+- ["14DateToolsSwift15TimePeriodGroupC", "Bool"]
+- ["14DateToolsSwift15TimePeriodGroupC", "Date"]
+- ["14DateToolsSwift15TimePeriodGroupC", "Int"]
+- ["14DateToolsSwift15TimePeriodGroupC", "TimePeriodCollection"]
+- ["14DateToolsSwift15TimePeriodGroupC", "TimePeriodGroup"]
+- ["14DateToolsSwift15TimePeriodGroupC", "TimePeriodProtocol"]
+- ["14DateToolsSwift15TimePeriodGroupC", ""]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "_beginning"]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "_end"]
+- ["14DateToolsSwift15TimePeriodGroupC", "allInside"]
+- ["14DateToolsSwift15TimePeriodGroupC", "append"]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "count"]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "deinit"]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "equals"]
+- ["14DateToolsSwift15TimePeriodGroupC", "init"]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "init"]
+- ["14DateToolsSwift15TimePeriodGroupC", "insert"]
+- ["14DateToolsSwift15TimePeriodGroupC", "map"]
+- ["14DateToolsSwift15TimePeriodGroupC", "nilOrEarlier"]
+- ["14DateToolsSwift15TimePeriodGroupC", "nilOrLater"]
+- !private ["14DateToolsSwift15TimePeriodGroupC", "periods"]
+- ["14DateToolsSwift15TimePeriodGroupC", "periodsIntersected"]
+- ["14DateToolsSwift15TimePeriodGroupC", "remove"]
+- ["14DateToolsSwift15TimePeriodGroupC", "removeAll"]
+- ["14DateToolsSwift15TimePeriodGroupC", "sort"]
+- ["14DateToolsSwift15TimePeriodGroupC", "sortByBeginning"]
+- ["14DateToolsSwift15TimePeriodGroupC", "sorted"]
+- ["14DateToolsSwift15TimePeriodGroupC", "sortedByBeginning"]
+- ["14DateToolsSwift15TimePeriodGroupC", "updateExtremes"]
+- !private ["14DateToolsSwift18TimePeriodProtocolP", "beginning"]
+- !private ["14DateToolsSwift18TimePeriodProtocolP", "contains"]
+- !private ["14DateToolsSwift18TimePeriodProtocolP", "end"]
+- !private ["14DateToolsSwift18TimePeriodProtocolP", "intersects"]
+- !private ["14DateToolsSwift18TimePeriodProtocolP", "isInside"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "beginning"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "end"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "insert"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "sort"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sort"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "earlierDate"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "laterDate"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "sort"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "14DateToolsSwift8IntervalO"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "14DateToolsSwift20TimePeriodCollectionC"
+- "14DateToolsSwift15TimePeriodGroupC"
+- !private "14DateToolsSwift18TimePeriodProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "873f4adde6f33799439a1b4ad875ff81"

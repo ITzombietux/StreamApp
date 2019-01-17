@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/mac/Documents/StreamsApp/Pods/Target\ Support\ Files/MBProgressHUD/MBProgressHUD-dummy.m \
+  /Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MBProgressHUD.build/module.modulemap \
+  /Users/mac/Documents/StreamsApp/Pods/Target\ Support\ Files/MBProgressHUD/MBProgressHUD-prefix.pch

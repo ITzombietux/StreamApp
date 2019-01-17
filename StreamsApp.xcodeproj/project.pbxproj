@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176BD7DC6DFF30FDE6BAF4DE /* Pods_StreamsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4441C5F08C06DB0651D41DAA /* Pods_StreamsApp.framework */; };
 		93B1905721F0581F006DA8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1905621F0581F006DA8DC /* AppDelegate.swift */; };
-		93B1905921F0581F006DA8DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1905821F0581F006DA8DC /* ViewController.swift */; };
-		93B1905C21F0581F006DA8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1905A21F0581F006DA8DC /* Main.storyboard */; };
 		93B1905E21F05820006DA8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B1905D21F05820006DA8DC /* Assets.xcassets */; };
 		93B1906121F05820006DA8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1905F21F05820006DA8DC /* LaunchScreen.storyboard */; };
+		93B1906921F05881006DA8DC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93B1906821F05881006DA8DC /* Podfile */; };
+		93B1909721F0ABFD006DA8DC /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1909621F0ABFD006DA8DC /* StreamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4441C5F08C06DB0651D41DAA /* Pods_StreamsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B1905321F0581F006DA8DC /* StreamsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B1905621F0581F006DA8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93B1905821F0581F006DA8DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93B1905B21F0581F006DA8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B1905D21F05820006DA8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B1906021F05820006DA8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B1906221F05820006DA8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B1906821F05881006DA8DC /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		93B1906A21F059FC006DA8DC /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = Pods/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		93B1909421F0A239006DA8DC /* StreamsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamsApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		93B1909621F0ABFD006DA8DC /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		9D0BDC9684066FEE2A533306 /* Pods-StreamsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F248223CC5C0324C2837E5A9 /* Pods-StreamsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176BD7DC6DFF30FDE6BAF4DE /* Pods_StreamsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FF30A935DEC9FCF408C491E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4441C5F08C06DB0651D41DAA /* Pods_StreamsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93B1904A21F0581F006DA8DC = {
 			isa = PBXGroup;
 			children = (
+				93B1906A21F059FC006DA8DC /* DateTools.bundle */,
+				93B1906821F05881006DA8DC /* Podfile */,
 				93B1905521F0581F006DA8DC /* StreamsApp */,
 				93B1905421F0581F006DA8DC /* Products */,
+				94B9C496FACBE28FF45C5404 /* Pods */,
+				5FF30A935DEC9FCF408C491E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,31 @@
 		93B1905521F0581F006DA8DC /* StreamsApp */ = {
 			isa = PBXGroup;
 			children = (
+				93B1909521F0ABCD006DA8DC /* StreamViewController */,
 				93B1905621F0581F006DA8DC /* AppDelegate.swift */,
-				93B1905821F0581F006DA8DC /* ViewController.swift */,
-				93B1905A21F0581F006DA8DC /* Main.storyboard */,
 				93B1905D21F05820006DA8DC /* Assets.xcassets */,
 				93B1905F21F05820006DA8DC /* LaunchScreen.storyboard */,
 				93B1906221F05820006DA8DC /* Info.plist */,
+				93B1909421F0A239006DA8DC /* StreamsApp-Bridging-Header.h */,
 			);
 			path = StreamsApp;
+			sourceTree = "<group>";
+		};
+		93B1909521F0ABCD006DA8DC /* StreamViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93B1909621F0ABFD006DA8DC /* StreamViewController.swift */,
+			);
+			path = StreamViewController;
+			sourceTree = "<group>";
+		};
+		94B9C496FACBE28FF45C5404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D0BDC9684066FEE2A533306 /* Pods-StreamsApp.debug.xcconfig */,
+				F248223CC5C0324C2837E5A9 /* Pods-StreamsApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93B1906521F05820006DA8DC /* Build configuration list for PBXNativeTarget "StreamsApp" */;
 			buildPhases = (
+				67A5863ECD4055D8925E099C /* [CP] Check Pods Manifest.lock */,
 				93B1904F21F0581F006DA8DC /* Sources */,
 				93B1905021F0581F006DA8DC /* Frameworks */,
 				93B1905121F0581F006DA8DC /* Resources */,
+				77B19CFA73411B94E362B4AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +160,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B1906921F05881006DA8DC /* Podfile in Resources */,
 				93B1906121F05820006DA8DC /* LaunchScreen.storyboard in Resources */,
 				93B1905E21F05820006DA8DC /* Assets.xcassets in Resources */,
-				93B1905C21F0581F006DA8DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67A5863ECD4055D8925E099C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B19CFA73411B94E362B4AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93B1904F21F0581F006DA8DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B1905921F0581F006DA8DC /* ViewController.swift in Sources */,
+				93B1909721F0ABFD006DA8DC /* StreamViewController.swift in Sources */,
 				93B1905721F0581F006DA8DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +234,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93B1905A21F0581F006DA8DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93B1905B21F0581F006DA8DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93B1905F21F05820006DA8DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,6 +363,7 @@
 		};
 		93B1906621F05820006DA8DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0BDC9684066FEE2A533306 /* Pods-StreamsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.zombietux.StreamsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StreamsApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +383,7 @@
 		};
 		93B1906721F05820006DA8DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F248223CC5C0324C2837E5A9 /* Pods-StreamsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.zombietux.StreamsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StreamsApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

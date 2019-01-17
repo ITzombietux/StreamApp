@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "879f99ffc1db6828e7700280e585247d"
+build_time: [1547731809, 309802000]
+inputs:
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Constants.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Bundle.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Comparators.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Components.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Format.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Inits.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Manipulations.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+TimeAgo.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Enums.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Integer+DateTools.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimeChunk.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriod.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriodChain.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriodCollection.swift": [1547706755, 0]
+  "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/TimePeriodGroup.swift": [1547706755, 0]

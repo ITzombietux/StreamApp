@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constants"
+provides-nominal:
+- "14DateToolsSwift9ConstantsC"
+provides-member:
+- ["14DateToolsSwift9ConstantsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Calendar"
+- "Constants"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Set"
+- "TimeInterval"
+depends-member:
+- ["10Foundation8CalendarV", "Component"]
+- ["10Foundation8CalendarV9ComponentO", "day"]
+- ["10Foundation8CalendarV9ComponentO", "era"]
+- ["10Foundation8CalendarV9ComponentO", "hour"]
+- ["10Foundation8CalendarV9ComponentO", "minute"]
+- ["10Foundation8CalendarV9ComponentO", "month"]
+- ["10Foundation8CalendarV9ComponentO", "quarter"]
+- ["10Foundation8CalendarV9ComponentO", "second"]
+- ["10Foundation8CalendarV9ComponentO", "weekOfMonth"]
+- ["10Foundation8CalendarV9ComponentO", "weekOfYear"]
+- ["10Foundation8CalendarV9ComponentO", "weekday"]
+- ["10Foundation8CalendarV9ComponentO", "weekdayOrdinal"]
+- ["10Foundation8CalendarV9ComponentO", "year"]
+- ["14DateToolsSwift9ConstantsC", "AllCalendarUnitFlags"]
+- ["14DateToolsSwift9ConstantsC", "Calendar"]
+- ["14DateToolsSwift9ConstantsC", "MillisecondsInDay"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInDay"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInHour"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInLeapYear"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInMinute"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInMonth28"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInMonth29"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInMonth30"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInMonth31"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInWeek"]
+- ["14DateToolsSwift9ConstantsC", "SecondsInYear"]
+- ["14DateToolsSwift9ConstantsC", "Set"]
+- ["14DateToolsSwift9ConstantsC", "TimeInterval"]
+- ["14DateToolsSwift9ConstantsC", "init"]
+- ["s28CustomDebugStringConvertibleP", "Component"]
+- ["s17CustomReflectableP", "Component"]
+- ["s23CustomStringConvertibleP", "Component"]
+- ["Se", "Component"]
+- ["SE", "Component"]
+- ["SQ", "Component"]
+- ["SQ", "day"]
+- ["SQ", "era"]
+- ["SQ", "hour"]
+- ["SQ", "minute"]
+- ["SQ", "month"]
+- ["SQ", "quarter"]
+- ["SQ", "second"]
+- ["SQ", "weekOfMonth"]
+- ["SQ", "weekOfYear"]
+- ["SQ", "weekday"]
+- ["SQ", "weekdayOrdinal"]
+- ["SQ", "year"]
+- ["SH", "Component"]
+- ["SH", "day"]
+- ["SH", "era"]
+- ["SH", "hour"]
+- ["SH", "minute"]
+- ["SH", "month"]
+- ["SH", "quarter"]
+- ["SH", "second"]
+- ["SH", "weekOfMonth"]
+- ["SH", "weekOfYear"]
+- ["SH", "weekday"]
+- ["SH", "weekdayOrdinal"]
+- ["SH", "year"]
+- ["10Foundation20ReferenceConvertibleP", "Component"]
+- ["10Foundation14_MutableBoxingP", "Component"]
+- ["s21_ObjectiveCBridgeableP", "Component"]
+depends-nominal:
+- "10Foundation8CalendarV"
+- "10Foundation8CalendarV9ComponentO"
+- "14DateToolsSwift9ConstantsC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "SH"
+- "10Foundation20ReferenceConvertibleP"
+- "10Foundation14_MutableBoxingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/StreamsApp/Pods/Target Support Files/DateToolsSwift/DateToolsSwift-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/DateToolsSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0faccc1fb9e2badf2a43e08f7fb2257"

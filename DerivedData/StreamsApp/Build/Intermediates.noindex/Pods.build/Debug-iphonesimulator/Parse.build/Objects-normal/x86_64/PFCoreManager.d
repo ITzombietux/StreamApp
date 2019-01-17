@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCoreManager.m \
+  /Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Parse.build/module.modulemap \
+  /Users/mac/Documents/StreamsApp/Pods/Target\ Support\ Files/Parse/Parse-prefix.pch \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCoreManager.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFCoreDataProvider.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFDataProvider.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFAssert.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFMacros.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFErrorUtilities.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Controller/PFCachedQueryController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Controller/PFQueryController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFConstants.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/CloudCode/PFCloudCodeController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Config/Controller/PFConfigController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/CurrentUserController/PFCurrentUserController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/CurrentController/PFCurrentObjectControlling.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/ACL/DefaultACLController/PFDefaultACLController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/File/Controller/PFFileController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/PFLocationManager.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/BatchController/PFObjectBatchController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/PFObjectController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/PFObjectControlling.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/FilePersistence/PFObjectFilePersistenceController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/LocalIdStore/PFObjectLocalIdStore.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Subclassing/PFObjectSubclassingController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/Controller/OfflineController/PFOfflineObjectController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Query/Controller/PFOfflineQueryController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Object/PinningStore/PFPinningObjectStore.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Session/Controller/PFSessionController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/AuthenticationProviders/Controller/PFUserAuthenticationController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/PFUserAuthenticationDelegate.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/User/Controller/PFUserController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/CurrentInstallationController/PFCurrentInstallationController.h \
+  /Users/mac/Documents/StreamsApp/Pods/Parse/Parse/Parse/Internal/Installation/Controller/PFInstallationController.h
