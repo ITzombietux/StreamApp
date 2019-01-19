@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "47021d7e5b26f25d9438c689b2098066"
-build_time: [1547731810, 781752000]
-inputs:
-  "/Users/mac/Documents/StreamsApp/StreamsApp/StreamViewController/StreamViewController.swift": [1547731782, 0]
-  "/Users/mac/Documents/StreamsApp/StreamsApp/AppDelegate.swift": [1547729043, 0]

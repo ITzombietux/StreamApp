@@ -163,6 +163,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
+@import Foundation;
 @import Parse;
 @import UIKit;
 #endif
@@ -197,16 +198,65 @@ SWIFT_CLASS("_TtC10StreamsApp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextView;
+@class UIImageView;
+@class UIButton;
+@class UIImagePickerController;
+@class UIBarButtonItem;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC10StreamsApp21NewPostViewController")
+@interface NewPostViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, strong) IBOutlet UITextView * _Nullable textView;
+@property (nonatomic, strong) IBOutlet UIImageView * _Nullable imageView;
+@property (nonatomic, strong) IBOutlet UIButton * _Nullable cameraButton;
+@property (nonatomic, strong) IBOutlet UIButton * _Nullable libraryButton;
+- (void)viewDidLoad;
+- (void)onAddImageTapped:(UIButton * _Nonnull)sender;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
+- (void)onSendTapped:(UIBarButtonItem * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+
+SWIFT_CLASS("_TtC10StreamsApp17PostTableViewCell")
+@interface PostTableViewCell : PFTableViewCell
+@property (nonatomic, strong) IBOutlet UIImageView * _Nullable userImageView;
+@property (nonatomic, strong) IBOutlet UILabel * _Nullable userNameLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Nullable postTextLabel;
+@property (nonatomic, strong) IBOutlet UILabel * _Nullable postDateLabel;
+@property (nonatomic, strong) IBOutlet UIImageView * _Nullable postImageView;
+- (void)prepareForReuse;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class PFLogInViewController;
+@class PFUser;
+@class PFSignUpViewController;
 @class UITableView;
 
 SWIFT_CLASS("_TtC10StreamsApp20StreamViewController")
 @interface StreamViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style className:(NSString * _Null_unspecified)className OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)onNewPostButtonTappedWithSender:(UIBarButtonItem * _Nonnull)sender;
+- (BOOL)logInViewController:(PFLogInViewController * _Nonnull)logInController shouldBeginLogInWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password SWIFT_WARN_UNUSED_RESULT;
+- (void)logInViewController:(PFLogInViewController * _Nonnull)logInController didFailToLogInWithError:(NSError * _Nullable)error;
+- (void)logInViewController:(PFLogInViewController * _Nonnull)logInController didLogInUser:(PFUser * _Nonnull)user;
+- (BOOL)signUpViewController:(PFSignUpViewController * _Nonnull)signUpController shouldBeginSignUp:(NSDictionary<NSString *, NSString *> * _Nonnull)info SWIFT_WARN_UNUSED_RESULT;
+- (void)signUpViewController:(PFSignUpViewController * _Nonnull)signUpController didFailToSignUpWithError:(NSError * _Nullable)error;
+- (void)signUpViewController:(PFSignUpViewController * _Nonnull)signUpController didSignUpUser:(PFUser * _Nonnull)user;
+- (PFQuery<PFObject *> * _Nonnull)queryForTable SWIFT_WARN_UNUSED_RESULT;
+- (PFTableViewCell * _Nullable)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath object:(PFObject * _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #if __has_attribute(external_source_symbol)

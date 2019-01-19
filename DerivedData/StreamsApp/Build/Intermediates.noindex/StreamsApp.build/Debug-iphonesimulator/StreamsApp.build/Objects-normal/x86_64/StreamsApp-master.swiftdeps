@@ -1,6 +1,8 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "47021d7e5b26f25d9438c689b2098066"
-build_time: [1547731872, 951789000]
+build_time: [1547795484, 725160000]
 inputs:
-  "/Users/mac/Documents/StreamsApp/StreamsApp/StreamViewController/StreamViewController.swift": [1547731872, 0]
-  "/Users/mac/Documents/StreamsApp/StreamsApp/AppDelegate.swift": [1547729043, 0]
+  "/Users/mac/Documents/StreamsApp/StreamsApp/StreamViewController/StreamViewController.swift": [1547792925, 0]
+  "/Users/mac/Documents/StreamsApp/StreamsApp/StreamViewController/NewPostViewController/NewPostViewController.swift": [1547792795, 0]
+  "/Users/mac/Documents/StreamsApp/StreamsApp/AppDelegate.swift": [1547795464, 0]
+  "/Users/mac/Documents/StreamsApp/StreamsApp/StreamViewController/PostTableViewCell/PostTableViewCell.swift": [1547784425, 0]

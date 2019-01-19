@@ -4,11 +4,12 @@
 <array>
 	<string>objc</string>
 	<string>Foundation</string>
-	<string>AppKit</string>
 	<string>Parse</string>
 	<string>ParseUI</string>
+	<string>AppKit</string>
 	<string>CoreGraphics</string>
 	<string>libkern</string>
+	<string>DateToolsSwift</string>
 	<string>FBSDKCoreKit</string>
 	<string>CoreServices</string>
 	<string>MBProgressHUD</string>

@@ -1,0 +1,603 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostTableViewCell"
+provides-nominal:
+- "10StreamsApp17PostTableViewCellC"
+provides-member:
+- ["10StreamsApp17PostTableViewCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "postDateLabel"
+- "postImageView"
+- "postTextLabel"
+- "prepareForReuse"
+- "setSelected"
+- "userImageView"
+- "userNameLabel"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "PFTableViewCell"
+- "PostTableViewCell"
+- !private "StringLiteralType"
+- "UIImageView"
+- "UILabel"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "postDateLabel"]
+- !private ["So15CALayerDelegateP", "postImageView"]
+- !private ["So15CALayerDelegateP", "postTextLabel"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "userImageView"]
+- !private ["So15CALayerDelegateP", "userNameLabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "postDateLabel"]
+- !private ["s7CVarArgP", "postImageView"]
+- !private ["s7CVarArgP", "postTextLabel"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "userImageView"]
+- !private ["s7CVarArgP", "userNameLabel"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "postDateLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "postImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "postTextLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "userImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "userNameLabel"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "postDateLabel"]
+- !private ["s23CustomStringConvertibleP", "postImageView"]
+- !private ["s23CustomStringConvertibleP", "postTextLabel"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "userImageView"]
+- !private ["s23CustomStringConvertibleP", "userNameLabel"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", ""]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "image"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "postDateLabel"]
+- !private ["SQ", "postImageView"]
+- !private ["SQ", "postTextLabel"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "text"]
+- !private ["SQ", "userImageView"]
+- !private ["SQ", "userNameLabel"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "image"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "postDateLabel"]
+- !private ["SH", "postImageView"]
+- !private ["SH", "postTextLabel"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "text"]
+- !private ["SH", "userImageView"]
+- !private ["SH", "userNameLabel"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "postDateLabel"]
+- !private ["So8NSCodingP", "postImageView"]
+- !private ["So8NSCodingP", "postTextLabel"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "userImageView"]
+- !private ["So8NSCodingP", "userNameLabel"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "postDateLabel"]
+- ["So8NSObjectC", "postImageView"]
+- ["So8NSObjectC", "postTextLabel"]
+- ["So8NSObjectC", "prepareForReuse"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "userImageView"]
+- ["So8NSObjectC", "userNameLabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "postDateLabel"]
+- !private ["So8NSObjectP", "postImageView"]
+- !private ["So8NSObjectP", "postTextLabel"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "userImageView"]
+- !private ["So8NSObjectP", "userNameLabel"]
+- ["So15PFTableViewCellC", "Bool"]
+- ["So15PFTableViewCellC", "UIImageView"]
+- ["So15PFTableViewCellC", "UILabel"]
+- ["So15PFTableViewCellC", ""]
+- ["So15PFTableViewCellC", "awakeFromNib"]
+- ["So15PFTableViewCellC", "init"]
+- !private ["So15PFTableViewCellC", "init"]
+- ["So15PFTableViewCellC", "postDateLabel"]
+- ["So15PFTableViewCellC", "postImageView"]
+- ["So15PFTableViewCellC", "postTextLabel"]
+- ["So15PFTableViewCellC", "prepareForReuse"]
+- ["So15PFTableViewCellC", "setSelected"]
+- ["So15PFTableViewCellC", "userImageView"]
+- ["So15PFTableViewCellC", "userNameLabel"]
+- ["10StreamsApp17PostTableViewCellC", "Bool"]
+- ["10StreamsApp17PostTableViewCellC", "UIImageView"]
+- ["10StreamsApp17PostTableViewCellC", "UILabel"]
+- ["10StreamsApp17PostTableViewCellC", "awakeFromNib"]
+- ["10StreamsApp17PostTableViewCellC", "init"]
+- ["10StreamsApp17PostTableViewCellC", "postDateLabel"]
+- ["10StreamsApp17PostTableViewCellC", "postImageView"]
+- ["10StreamsApp17PostTableViewCellC", "postTextLabel"]
+- ["10StreamsApp17PostTableViewCellC", "prepareForReuse"]
+- ["10StreamsApp17PostTableViewCellC", "setSelected"]
+- ["10StreamsApp17PostTableViewCellC", "userImageView"]
+- ["10StreamsApp17PostTableViewCellC", "userNameLabel"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "postDateLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "postImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "postTextLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "userImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "userNameLabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "postDateLabel"]
+- !private ["So12UIAppearanceP", "postImageView"]
+- !private ["So12UIAppearanceP", "postTextLabel"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "userImageView"]
+- !private ["So12UIAppearanceP", "userNameLabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "postDateLabel"]
+- !private ["So21UIAppearanceContainerP", "postImageView"]
+- !private ["So21UIAppearanceContainerP", "postTextLabel"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "userImageView"]
+- !private ["So21UIAppearanceContainerP", "userNameLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "postDateLabel"]
+- !private ["So17UICoordinateSpaceP", "postImageView"]
+- !private ["So17UICoordinateSpaceP", "postTextLabel"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "userImageView"]
+- !private ["So17UICoordinateSpaceP", "userNameLabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "postDateLabel"]
+- !private ["So13UIDynamicItemP", "postImageView"]
+- !private ["So13UIDynamicItemP", "postTextLabel"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "userImageView"]
+- !private ["So13UIDynamicItemP", "userNameLabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "postDateLabel"]
+- !private ["So18UIFocusEnvironmentP", "postImageView"]
+- !private ["So18UIFocusEnvironmentP", "postTextLabel"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "userImageView"]
+- !private ["So18UIFocusEnvironmentP", "userNameLabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "postDateLabel"]
+- !private ["So11UIFocusItemP", "postImageView"]
+- !private ["So11UIFocusItemP", "postTextLabel"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "userImageView"]
+- !private ["So11UIFocusItemP", "userNameLabel"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "postDateLabel"]
+- !private ["So20UIFocusItemContainerP", "postImageView"]
+- !private ["So20UIFocusItemContainerP", "postTextLabel"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "userImageView"]
+- !private ["So20UIFocusItemContainerP", "userNameLabel"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "postDateLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "postImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "postTextLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "userImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "userNameLabel"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "postDateLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "postImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "postTextLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "userImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "userNameLabel"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "postDateLabel"]
+- ["So11UIResponderC", "postImageView"]
+- ["So11UIResponderC", "postTextLabel"]
+- ["So11UIResponderC", "prepareForReuse"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "userImageView"]
+- ["So11UIResponderC", "userNameLabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "postDateLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "postImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "postTextLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "userImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "userNameLabel"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "postDateLabel"]
+- ["So15UITableViewCellC", "postImageView"]
+- ["So15UITableViewCellC", "postTextLabel"]
+- ["So15UITableViewCellC", "prepareForReuse"]
+- ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", "userImageView"]
+- ["So15UITableViewCellC", "userNameLabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "postDateLabel"]
+- !private ["So18UITraitEnvironmentP", "postImageView"]
+- !private ["So18UITraitEnvironmentP", "postTextLabel"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "userImageView"]
+- !private ["So18UITraitEnvironmentP", "userNameLabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "postDateLabel"]
+- !private ["So23UIUserActivityRestoringP", "postImageView"]
+- !private ["So23UIUserActivityRestoringP", "postTextLabel"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "userImageView"]
+- !private ["So23UIUserActivityRestoringP", "userNameLabel"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "postDateLabel"]
+- ["So6UIViewC", "postImageView"]
+- ["So6UIViewC", "postTextLabel"]
+- ["So6UIViewC", "prepareForReuse"]
+- ["So6UIViewC", "setSelected"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "userImageView"]
+- ["So6UIViewC", "userNameLabel"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "postDateLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "postImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "postTextLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "userImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "userNameLabel"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postDateLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postTextLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userNameLabel"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15PFTableViewCellC"
+- "10StreamsApp17PostTableViewCellC"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Modules/DateToolsSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers/DateToolsSwift-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFTextField.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFLogInView_Private.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFTableViewCell.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPurchaseTableViewCell.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCollectionViewCell.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPolygon.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSession.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/mac/Documents/StreamsApp/StreamsApp-Bridging-Header.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFDecoder.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFEncoder.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProductTableViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQueryTableViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFLogInViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQueryCollectionViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSignUpViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/ParseUIConstants.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers/DateToolsSwift-Swift.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadResult.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFImageView.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFLogInView.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSignUpView.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules/module.modulemap"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e62ebf2f171944b9762edf4d1339435d"

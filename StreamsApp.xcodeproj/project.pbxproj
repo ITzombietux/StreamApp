@@ -13,6 +13,11 @@
 		93B1906121F05820006DA8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1905F21F05820006DA8DC /* LaunchScreen.storyboard */; };
 		93B1906921F05881006DA8DC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93B1906821F05881006DA8DC /* Podfile */; };
 		93B1909721F0ABFD006DA8DC /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1909621F0ABFD006DA8DC /* StreamViewController.swift */; };
+		93B1909B21F182D2006DA8DC /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1909921F182D2006DA8DC /* PostTableViewCell.swift */; };
+		93B1909C21F182D2006DA8DC /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B1909A21F182D2006DA8DC /* PostTableViewCell.xib */; };
+		93B1909E21F18869006DA8DC /* PostTableViewCell_NoImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B1909D21F18869006DA8DC /* PostTableViewCell_NoImage.xib */; };
+		93B190A221F1956F006DA8DC /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B190A021F1956F006DA8DC /* NewPostViewController.swift */; };
+		93B190A321F1956F006DA8DC /* NewPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B190A121F1956F006DA8DC /* NewPostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		93B1906A21F059FC006DA8DC /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = Pods/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle; sourceTree = "<group>"; };
 		93B1909421F0A239006DA8DC /* StreamsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamsApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		93B1909621F0ABFD006DA8DC /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		93B1909921F182D2006DA8DC /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		93B1909A21F182D2006DA8DC /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		93B1909D21F18869006DA8DC /* PostTableViewCell_NoImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell_NoImage.xib; sourceTree = "<group>"; };
+		93B190A021F1956F006DA8DC /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		93B190A121F1956F006DA8DC /* NewPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPostViewController.xib; sourceTree = "<group>"; };
 		9D0BDC9684066FEE2A533306 /* Pods-StreamsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F248223CC5C0324C2837E5A9 /* Pods-StreamsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamsApp/Pods-StreamsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,9 +96,30 @@
 		93B1909521F0ABCD006DA8DC /* StreamViewController */ = {
 			isa = PBXGroup;
 			children = (
+				93B1909F21F19552006DA8DC /* NewPostViewController */,
+				93B1909821F182B1006DA8DC /* PostTableViewCell */,
 				93B1909621F0ABFD006DA8DC /* StreamViewController.swift */,
 			);
 			path = StreamViewController;
+			sourceTree = "<group>";
+		};
+		93B1909821F182B1006DA8DC /* PostTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				93B1909921F182D2006DA8DC /* PostTableViewCell.swift */,
+				93B1909A21F182D2006DA8DC /* PostTableViewCell.xib */,
+				93B1909D21F18869006DA8DC /* PostTableViewCell_NoImage.xib */,
+			);
+			path = PostTableViewCell;
+			sourceTree = "<group>";
+		};
+		93B1909F21F19552006DA8DC /* NewPostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93B190A021F1956F006DA8DC /* NewPostViewController.swift */,
+				93B190A121F1956F006DA8DC /* NewPostViewController.xib */,
+			);
+			path = NewPostViewController;
 			sourceTree = "<group>";
 		};
 		94B9C496FACBE28FF45C5404 /* Pods */ = {
@@ -161,8 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B1906921F05881006DA8DC /* Podfile in Resources */,
+				93B190A321F1956F006DA8DC /* NewPostViewController.xib in Resources */,
 				93B1906121F05820006DA8DC /* LaunchScreen.storyboard in Resources */,
+				93B1909E21F18869006DA8DC /* PostTableViewCell_NoImage.xib in Resources */,
 				93B1905E21F05820006DA8DC /* Assets.xcassets in Resources */,
+				93B1909C21F182D2006DA8DC /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B1909721F0ABFD006DA8DC /* StreamViewController.swift in Sources */,
+				93B190A221F1956F006DA8DC /* NewPostViewController.swift in Sources */,
 				93B1905721F0581F006DA8DC /* AppDelegate.swift in Sources */,
+				93B1909B21F182D2006DA8DC /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

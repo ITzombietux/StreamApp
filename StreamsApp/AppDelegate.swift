@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let configuration = ParseClientConfiguration {
-            $0.applicationId = "..."
-            $0.clientKey = "..."
-            $0.server = "..."
+            $0.applicationId = "zombietux"
+            $0.clientKey = "tlr12tlr"
+            $0.server = "https://radiant-river-57171.herokuapp.com/parse"
         }
         
         Parse.initialize(with: configuration)

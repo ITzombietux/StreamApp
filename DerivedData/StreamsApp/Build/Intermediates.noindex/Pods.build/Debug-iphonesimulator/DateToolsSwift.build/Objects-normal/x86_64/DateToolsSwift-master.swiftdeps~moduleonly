@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "879f99ffc1db6828e7700280e585247d"
-build_time: [1547731809, 309802000]
+build_time: [1547795476, 272577000]
 inputs:
   "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Constants.swift": [1547706755, 0]
   "/Users/mac/Documents/StreamsApp/Pods/DateToolsSwift/DateToolsSwift/DateTools/Date+Bundle.swift": [1547706755, 0]
