@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		176BD7DC6DFF30FDE6BAF4DE /* Pods_StreamsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4441C5F08C06DB0651D41DAA /* Pods_StreamsApp.framework */; };
+		937DD9C821F5C76B001EA093 /* UserHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DD9C721F5C76B001EA093 /* UserHeaderView.swift */; };
+		937DD9CA21F5C794001EA093 /* UserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937DD9C921F5C794001EA093 /* UserHeaderView.xib */; };
 		93B1905721F0581F006DA8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1905621F0581F006DA8DC /* AppDelegate.swift */; };
 		93B1905E21F05820006DA8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B1905D21F05820006DA8DC /* Assets.xcassets */; };
 		93B1906121F05820006DA8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1905F21F05820006DA8DC /* LaunchScreen.storyboard */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		4441C5F08C06DB0651D41DAA /* Pods_StreamsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937DD9C721F5C76B001EA093 /* UserHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeaderView.swift; sourceTree = "<group>"; };
+		937DD9C921F5C794001EA093 /* UserHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserHeaderView.xib; sourceTree = "<group>"; };
 		93B1905321F0581F006DA8DC /* StreamsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B1905621F0581F006DA8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93B1905D21F05820006DA8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		937DD9C621F57C4C001EA093 /* UserHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				937DD9C721F5C76B001EA093 /* UserHeaderView.swift */,
+				937DD9C921F5C794001EA093 /* UserHeaderView.xib */,
+			);
+			path = UserHeaderView;
+			sourceTree = "<group>";
+		};
 		93B1904A21F0581F006DA8DC = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 		93B1909521F0ABCD006DA8DC /* StreamViewController */ = {
 			isa = PBXGroup;
 			children = (
+				937DD9C621F57C4C001EA093 /* UserHeaderView */,
 				93B1909F21F19552006DA8DC /* NewPostViewController */,
 				93B1909821F182B1006DA8DC /* PostTableViewCell */,
 				93B1909621F0ABFD006DA8DC /* StreamViewController.swift */,
@@ -193,6 +207,7 @@
 			files = (
 				93B1906921F05881006DA8DC /* Podfile in Resources */,
 				93B190A321F1956F006DA8DC /* NewPostViewController.xib in Resources */,
+				937DD9CA21F5C794001EA093 /* UserHeaderView.xib in Resources */,
 				93B1906121F05820006DA8DC /* LaunchScreen.storyboard in Resources */,
 				93B1909E21F18869006DA8DC /* PostTableViewCell_NoImage.xib in Resources */,
 				93B1905E21F05820006DA8DC /* Assets.xcassets in Resources */,
@@ -264,6 +279,7 @@
 				93B190A221F1956F006DA8DC /* NewPostViewController.swift in Sources */,
 				93B1905721F0581F006DA8DC /* AppDelegate.swift in Sources */,
 				93B1909B21F182D2006DA8DC /* PostTableViewCell.swift in Sources */,
+				937DD9C821F5C76B001EA093 /* UserHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

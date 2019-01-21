@@ -163,6 +163,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
+@import CoreGraphics;
 @import Foundation;
 @import Parse;
 @import UIKit;
@@ -236,19 +237,26 @@ SWIFT_CLASS("_TtC10StreamsApp17PostTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITapGestureRecognizer;
+@class UISearchController;
 @class PFLogInViewController;
 @class PFUser;
 @class PFSignUpViewController;
 @class UITableView;
 
 SWIFT_CLASS("_TtC10StreamsApp20StreamViewController")
-@interface StreamViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+@interface StreamViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UISearchResultsUpdating>
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style className:(NSString * _Null_unspecified)className OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)onNewPostButtonTappedWithSender:(UIBarButtonItem * _Nonnull)sender;
+- (void)onUserButtonTapped:(UIBarButtonItem * _Nonnull)sender;
+- (void)onFollowButtonTapped:(UIButton * _Nonnull)sender;
+- (void)onUserAvatarTapped:(UITapGestureRecognizer * _Nonnull)sender;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
+- (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
 - (BOOL)logInViewController:(PFLogInViewController * _Nonnull)logInController shouldBeginLogInWithUsername:(NSString * _Nonnull)username password:(NSString * _Nonnull)password SWIFT_WARN_UNUSED_RESULT;
 - (void)logInViewController:(PFLogInViewController * _Nonnull)logInController didFailToLogInWithError:(NSError * _Nullable)error;
 - (void)logInViewController:(PFLogInViewController * _Nonnull)logInController didLogInUser:(PFUser * _Nonnull)user;
@@ -257,6 +265,14 @@ SWIFT_CLASS("_TtC10StreamsApp20StreamViewController")
 - (void)signUpViewController:(PFSignUpViewController * _Nonnull)signUpController didSignUpUser:(PFUser * _Nonnull)user;
 - (PFQuery<PFObject *> * _Nonnull)queryForTable SWIFT_WARN_UNUSED_RESULT;
 - (PFTableViewCell * _Nullable)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath object:(PFObject * _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+SWIFT_CLASS("_TtC10StreamsApp14UserHeaderView")
+@interface UserHeaderView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)

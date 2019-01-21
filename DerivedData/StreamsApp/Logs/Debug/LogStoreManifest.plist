@@ -6,6 +6,35 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>0302FAF1-9F22-4C80-8277-62417118A80C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0302FAF1-9F22-4C80-8277-62417118A80C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamsApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamsApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug StreamsApp</string>
+			<key>timeStartedRecording</key>
+			<real>569728860.13553405</real>
+			<key>timeStoppedRecording</key>
+			<real>569728971.99014699</real>
+			<key>title</key>
+			<string>Debug StreamsApp</string>
+			<key>uniqueIdentifier</key>
+			<string>0302FAF1-9F22-4C80-8277-62417118A80C</string>
+		</dict>
 		<key>256E5264-F999-4E66-9907-DC67254BF80D</key>
 		<dict>
 			<key>className</key>
@@ -35,7 +64,7 @@
 			<key>uniqueIdentifier</key>
 			<string>256E5264-F999-4E66-9907-DC67254BF80D</string>
 		</dict>
-		<key>6EB98A8A-0235-4E6D-A264-86726FACAD63</key>
+		<key>29F616F1-88CE-4B4D-AB7E-4E104D071A68</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -44,7 +73,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6EB98A8A-0235-4E6D-A264-86726FACAD63.xcactivitylog</string>
+			<string>29F616F1-88CE-4B4D-AB7E-4E104D071A68.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +85,100 @@
 			<key>signature</key>
 			<string>Debug StreamsApp</string>
 			<key>timeStartedRecording</key>
-			<real>569489158.98202002</real>
+			<real>569551261.24144006</real>
 			<key>timeStoppedRecording</key>
-			<real>569489463.47236001</real>
+			<real>569551294.81134498</real>
 			<key>title</key>
 			<string>Debug StreamsApp</string>
 			<key>uniqueIdentifier</key>
-			<string>6EB98A8A-0235-4E6D-A264-86726FACAD63</string>
+			<string>29F616F1-88CE-4B4D-AB7E-4E104D071A68</string>
+		</dict>
+		<key>3200E65C-C842-446F-90FB-30672E079612</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3200E65C-C842-446F-90FB-30672E079612.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamsApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamsApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug StreamsApp</string>
+			<key>timeStartedRecording</key>
+			<real>569728973.34207404</real>
+			<key>timeStoppedRecording</key>
+			<real>569756495.27917802</real>
+			<key>title</key>
+			<string>Debug StreamsApp</string>
+			<key>uniqueIdentifier</key>
+			<string>3200E65C-C842-446F-90FB-30672E079612</string>
+		</dict>
+		<key>7743CF79-88E2-4B6A-BF44-8EF120C4CDB8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7743CF79-88E2-4B6A-BF44-8EF120C4CDB8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamsApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamsApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug StreamsApp</string>
+			<key>timeStartedRecording</key>
+			<real>569550719.07988298</real>
+			<key>timeStoppedRecording</key>
+			<real>569551258.68520296</real>
+			<key>title</key>
+			<string>Debug StreamsApp</string>
+			<key>uniqueIdentifier</key>
+			<string>7743CF79-88E2-4B6A-BF44-8EF120C4CDB8</string>
+		</dict>
+		<key>C621CEFB-3E85-41DF-BFDF-C5F8FE71CAE5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C621CEFB-3E85-41DF-BFDF-C5F8FE71CAE5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamsApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamsApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug StreamsApp</string>
+			<key>timeStartedRecording</key>
+			<real>569756499.87351203</real>
+			<key>timeStoppedRecording</key>
+			<real>569756575.08414805</real>
+			<key>title</key>
+			<string>Debug StreamsApp</string>
+			<key>uniqueIdentifier</key>
+			<string>C621CEFB-3E85-41DF-BFDF-C5F8FE71CAE5</string>
 		</dict>
 	</dict>
 </dict>

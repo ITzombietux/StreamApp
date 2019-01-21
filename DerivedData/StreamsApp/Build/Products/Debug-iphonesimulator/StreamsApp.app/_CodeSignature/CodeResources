@@ -14,11 +14,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		O+1glBraj2KHGQ8SFwzUqp7QCHE=
+		XNuzHxg8LDTHvigxEtkUrNv07uc=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		7+P9oRxATdu2Ym665rR8xShlnP0=
+		vdNd+Rn2dQXpoOhg8dasKRFKfqM=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		8aE1eOgQoj7L2w/fwySFAi2RCbE=
+		laN+J0zyMM3ywy9JPPlUZE7rB2s=
 		</data>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		V7ALdsORENogqUs0PmTeJZJDLiA=
+		9PiK8z1MzisRD/ER52MUlXZ9NyU=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -420,7 +420,7 @@
 		</dict>
 		<key>Frameworks/DateToolsSwift.framework/DateToolsSwift</key>
 		<data>
-		+cTi9AOZxyBLhE3VSZR9FjO6neg=
+		JCXFQN3+Ioc23dBU9b8Z/Vsin1E=
 		</data>
 		<key>Frameworks/DateToolsSwift.framework/Info.plist</key>
 		<data>
@@ -436,7 +436,7 @@
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/MBProgressHUD</key>
 		<data>
-		keh+eH5faBMdJv3xwUTHNrmIXaU=
+		XVhz404UuV0Ye5UgRJwL66AWa5c=
 		</data>
 		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -448,7 +448,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		nM+9CY0tpAoFZOTZKhhEdN60MHk=
+		cimDZDk1OUqaudDzU03fNXacP/o=
 		</data>
 		<key>Frameworks/Parse.framework/Parse.bundle/Info.plist</key>
 		<data>
@@ -587,11 +587,11 @@
 		</data>
 		<key>NewPostViewController.nib/objects-11.0+.nib</key>
 		<data>
-		vDhAi/68uKTrJKekkHLxof3KDZk=
+		xR/wNU4VPZ1yUPk+r1QcOCEf1y4=
 		</data>
 		<key>NewPostViewController.nib/runtime.nib</key>
 		<data>
-		Bzf9iZCESYwA8nIS4NoVvvbYMeE=
+		vdlZ0e8aXQMTG6BWQpf+3Osb504=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -603,11 +603,15 @@
 		</data>
 		<key>PostTableViewCell.nib</key>
 		<data>
-		ycuLyZ4+q26POhrqXZlBmbo9EiI=
+		FTIwQ1Abifm+X/oYauIBbjePoVU=
 		</data>
 		<key>PostTableViewCell_NoImage.nib</key>
 		<data>
-		881p8FRLkDxRZtF7hHyXhDeQ4HE=
+		zM+HXuhN6SByWm9AgPyrSbs5FdM=
+		</data>
+		<key>UserHeaderView.nib</key>
+		<data>
+		k/Gl+V6/08nRP95kSfrYLLyj26g=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -642,22 +646,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O+1glBraj2KHGQ8SFwzUqp7QCHE=
+			XNuzHxg8LDTHvigxEtkUrNv07uc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SkYGMKxEvVc1ux2vaorctr9U/Pp67qnkYJCO6prua14=
+			ip9GHQLLvfw8BAiFQZhfrbmWtpxNIa6JYnUtWVYh6T4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7+P9oRxATdu2Ym665rR8xShlnP0=
+			vdNd+Rn2dQXpoOhg8dasKRFKfqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			oxxTg1oQB0mjGyK4D9cLnX/GuDLHPPUrLyE5VcmqiPo=
+			kV/YaN7qouzoXWBvSagjK4ABpjqD81AWNZfsWOb3JC0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -675,22 +679,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8aE1eOgQoj7L2w/fwySFAi2RCbE=
+			laN+J0zyMM3ywy9JPPlUZE7rB2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			p9MaSzQQxm6feem39aEbaA3+AJWATf+2rYrAHIIbH+s=
+			A2Em7hrhLQxQdFuRmi2MeDQPB6Ms+U37hpFlx1k+C90=
 			</data>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V7ALdsORENogqUs0PmTeJZJDLiA=
+			9PiK8z1MzisRD/ER52MUlXZ9NyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			qFZX3Pii/78+ItqesrsECyQJIMY8ExBunsFno1Z/4IM=
+			X05Ynqz8k3mK4TXmVjAbMKxM9I0K7GLLDxrwbQaVESU=
 			</data>
 		</dict>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
@@ -1265,11 +1269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+cTi9AOZxyBLhE3VSZR9FjO6neg=
+			JCXFQN3+Ioc23dBU9b8Z/Vsin1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			G7nOISA+eHU1ysdYxioMTxkN5A+Q/0g+EpUFWwWuCpM=
+			OPWbo2IxWK2eAIuavyrskv4r8vNkx5BcpIxm4QTcthw=
 			</data>
 		</dict>
 		<key>Frameworks/DateToolsSwift.framework/Info.plist</key>
@@ -1309,11 +1313,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			keh+eH5faBMdJv3xwUTHNrmIXaU=
+			XVhz404UuV0Ye5UgRJwL66AWa5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			VFEBz/+y3SotzRqvz7wX+ngl2Ia6SsX5QIOYrtuouWk=
+			0CA8x04JMzvK7EcFykkrwtZkjsKB6G99YLLz9e5s+Fg=
 			</data>
 		</dict>
 		<key>Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources</key>
@@ -1342,11 +1346,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nM+9CY0tpAoFZOTZKhhEdN60MHk=
+			cimDZDk1OUqaudDzU03fNXacP/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			hjyM/I4s0Ti78pZ/LwjV+dd5qbRbPsuyQ6IAj968KlM=
+			XTP+a8HGQNydKYcZXbqLSwCqyVp/997PZSVrizMyp/k=
 			</data>
 		</dict>
 		<key>Frameworks/Parse.framework/Parse.bundle/Info.plist</key>
@@ -1631,22 +1635,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vDhAi/68uKTrJKekkHLxof3KDZk=
+			xR/wNU4VPZ1yUPk+r1QcOCEf1y4=
 			</data>
 			<key>hash2</key>
 			<data>
-			r0xtevdzg9SiAnfJ2Ht2kmM6lIfSibhBWAC5QmcPkO8=
+			C77558DloGfZ7qYRW9yEmM9YGFTKQElamws3PddJw80=
 			</data>
 		</dict>
 		<key>NewPostViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Bzf9iZCESYwA8nIS4NoVvvbYMeE=
+			vdlZ0e8aXQMTG6BWQpf+3Osb504=
 			</data>
 			<key>hash2</key>
 			<data>
-			3CEsxd6pF6fs8KAS1W1NnHvm7dhldyjuGSflTy08GOA=
+			oVyu5HpEbFdvC26pQoUGdcKZdQ+C+7MNtqDYvjTUL/A=
 			</data>
 		</dict>
 		<key>Podfile</key>
@@ -1664,22 +1668,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ycuLyZ4+q26POhrqXZlBmbo9EiI=
+			FTIwQ1Abifm+X/oYauIBbjePoVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wF7mI9f3kI0xCtWibFPgAqwV+R2z2j6TOYb9Ja9daOY=
+			mz++EinbIYGaxfvnQ6s4iD0kYv0JsDEdsBfslVlbq5s=
 			</data>
 		</dict>
 		<key>PostTableViewCell_NoImage.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			881p8FRLkDxRZtF7hHyXhDeQ4HE=
+			zM+HXuhN6SByWm9AgPyrSbs5FdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MdB2zDrG3eRofrWGQaILOZpRVUE+qvu811NeWytJD0k=
+			0aTbu5XTTIdjUGW0eTM82uBHjQWsl/lRGmk6LfYScE8=
+			</data>
+		</dict>
+		<key>UserHeaderView.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k/Gl+V6/08nRP95kSfrYLLyj26g=
+			</data>
+			<key>hash2</key>
+			<data>
+			qF6owW5L6nvkTY+jww4oLfrpVaXR0bJr/dUsHmh2Clw=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

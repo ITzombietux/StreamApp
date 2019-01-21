@@ -5,15 +5,15 @@
 	<string>objc</string>
 	<string>Foundation</string>
 	<string>Parse</string>
-	<string>ParseUI</string>
 	<string>AppKit</string>
+	<string>ParseUI</string>
 	<string>CoreGraphics</string>
 	<string>libkern</string>
 	<string>DateToolsSwift</string>
 	<string>FBSDKCoreKit</string>
 	<string>CoreServices</string>
-	<string>MBProgressHUD</string>
 	<string>os</string>
+	<string>MBProgressHUD</string>
 	<string>UIKit</string>
 	<string>sys</string>
 	<string>CoreLocation</string>

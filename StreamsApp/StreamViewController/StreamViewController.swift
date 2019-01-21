@@ -10,8 +10,9 @@ import UIKit
 import Parse
 import Bolts
 import DateToolsSwift
+import MBProgressHUD
 
-class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UISearchResultsUpdating    {
+class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UISearchResultsUpdating, UIImagePickerControllerDelegate, UINavigationControllerDelegate    {
     
     let postCellIdentifier: String = "PostCell"
     let postCell_NoImageIdentifier:String = "PostCell_NoImage"
@@ -21,6 +22,8 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
     var isSearching:Bool = false
 
     var user:PFUser?
+    
+    var userHeaderView:UserHeaderView?
     
     override init(style: UITableView.Style, className: String!) {
         super.init(style: style, className: className)
@@ -45,11 +48,69 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
     {
         if let user = self.user
         {
-            // ...
+            self.title = user.username
+            
+            userHeaderView = UserHeaderView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 135))
+            userHeaderView?.userNameLabel?.text = user.username
+            
+            if let file:PFFile = user["avatar"] as? PFFile
+            {
+                file.getDataInBackground() {
+                    (data, error) in
+                    
+                    if(data != nil)
+                    {
+                        self.userHeaderView?.imageView?.image = UIImage(data: data!)
+                    }
+                }
+            }
+            
+            if user == PFUser.current()
+            {
+                userHeaderView!.followButton?.isHidden = true
+                
+                var tapRecognizer:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(onUserAvatarTapped(_:)))
+                userHeaderView?.imageView?.addGestureRecognizer(tapRecognizer)
+            }
+            else
+            {
+                userHeaderView?.followButton?.addTarget(self, action: #selector(onFollowButtonTapped(_:)), for: UIControl.Event.touchUpInside)
+            }
+            
+            DispatchQueue.global(qos: .background).async {
+                
+                if let currentUser = PFUser.current()
+                {
+                    var error:NSError?
+                    
+                    var postCount:Int = PFQuery(className: "Post").whereKey("user", equalTo: user).countObjects(&error)
+                    var followerCount:Int = PFQuery(className: "User_Follow").whereKey("user", equalTo: user).countObjects(&error)
+                    var isFollowing:Bool = PFQuery(className: "User_Follow").whereKey("user", equalTo: user).whereKey("follower", equalTo: PFUser.current()!).countObjects(&error) > 0
+                    
+                    if error != nil
+                    {
+                        print("Error: \(error)")
+                    }
+                    
+                    DispatchQueue.main.async {
+                        
+                        self.userHeaderView?.numberPostsLabel?.text = "Posts: \(postCount)"
+                        self.userHeaderView?.numberFollowersLabel?.text = "Followers: \(followerCount)"
+                        
+                        self.userHeaderView?.followButton?.setTitle(isFollowing ? "Unfollow" : "Follow", for: UIControl.State.normal)
+                    }
+                }
+                
+            }
+            
+            tableView.tableHeaderView = userHeaderView
+
         }
         else
         {
             self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "NewPostIcon"), style: UIBarButtonItem.Style.plain, target: self, action: #selector(onNewPostButtonTapped(sender:)))
+            
+            self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "UserIcon"), style: UIBarButtonItem.Style.plain, target: self, action: #selector(onUserButtonTapped(_:)))
             
             searchController = UISearchController(searchResultsController: nil)
             searchController?.searchResultsUpdater = self
@@ -110,6 +171,144 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
         let newPostVC:NewPostViewController = NewPostViewController(nibName: "NewPostViewController", bundle: nil)
         
         self.navigationController?.pushViewController(newPostVC, animated: true)
+    }
+    
+    @objc func onUserButtonTapped(_ sender:UIBarButtonItem)
+    {
+        if let currentUser = PFUser.current()
+        {
+            var streamVC:StreamViewController = StreamViewController(style: UITableView.Style.plain, className: "Post", user: currentUser)
+            self.navigationController?.pushViewController(streamVC, animated: true)
+        }
+    }
+    
+    @objc func onFollowButtonTapped(_ sender:UIButton)
+    {
+        if  let user = self.user,
+            let currentUser = PFUser.current()
+        {
+            DispatchQueue.global(qos: .background).async {
+                
+                var error:NSError?
+                
+                var query:PFQuery = PFQuery(className: "User_Follow").whereKey("user", equalTo: user).whereKey("follower", equalTo: currentUser)
+                var followerCount:Int = PFQuery(className: "User_Follow").whereKey("user", equalTo: user).countObjects(&error)
+                var isFollowing:Bool = query.countObjects(&error) > 0
+                
+                if error != nil
+                {
+                    print("Error: \(error)")
+                }
+                
+                if isFollowing == true
+                {
+                    do {
+                        
+                        let user_follow:PFObject = try query.getFirstObject()
+                        
+                        try user_follow.delete()
+                        
+                        followerCount -= 1
+                        isFollowing = false
+                    }
+                    catch(let e)
+                    {
+                        print("Exception: \(e)")
+                    }
+                }
+                else
+                {
+                    do {
+                        var user_follow:PFObject = PFObject(className: "User_Follow")
+                        user_follow["user"] = user
+                        user_follow["follower"] = currentUser
+                        
+                        try user_follow.save()
+                        
+                        followerCount += 1
+                        isFollowing = true
+                    }
+                    catch(let e)
+                    {
+                        print("Exception: \(e)")
+                    }
+                }
+                
+                DispatchQueue.main.async {
+                    self.userHeaderView?.numberFollowersLabel?.text = "Followers: \(followerCount)"
+                    
+                    self.userHeaderView?.followButton?.setTitle(isFollowing ? "Unfollow" : "Follow", for: UIControl.State.normal)
+                }
+            }
+        }
+    }
+
+
+    @objc func onUserAvatarTapped(_ sender:UITapGestureRecognizer)
+    {
+        let alertController = UIAlertController(title: nil, message: "Do you want to change your user profile avatar?", preferredStyle: UIAlertController.Style.actionSheet)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) { (action) in
+            // Do nothing ...
+        }
+        
+        alertController.addAction(cancelAction)
+        
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.photoLibrary)
+        {
+            let libraryAction = UIAlertAction(title: "Add From Photo Library", style: UIAlertAction.Style.default) {
+                (action) in
+                
+                let picker:UIImagePickerController = UIImagePickerController()
+                picker.delegate = self
+                picker.sourceType = UIImagePickerController.SourceType.photoLibrary
+                
+                self.present(picker, animated: true, completion: nil)
+            }
+            
+            alertController.addAction(libraryAction)
+        }
+        
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.camera)
+        {
+            let cameraAction = UIAlertAction(title: "Take Photo With Camera", style: UIAlertAction.Style.default) {
+                (action) in
+                
+                let picker:UIImagePickerController = UIImagePickerController()
+                picker.delegate = self
+                picker.sourceType = UIImagePickerController.SourceType.camera
+                
+                self.present(picker, animated: true, completion: nil)
+            }
+            
+            alertController.addAction(cameraAction)
+        }
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])
+    {
+        if  let currentUser:PFUser      = PFUser.current(),
+            let image:UIImage           = info[UIImagePickerController.InfoKey.originalImage] as?   UIImage,
+            let data:Data               = image.pngData(),
+            let imageFile:PFFile        = PFFile(data: data)
+        {
+            currentUser.setObject(imageFile, forKey: "avatar")
+        
+            picker.dismiss(animated: true, completion: nil)
+        
+        let hud:MBProgressHUD = MBProgressHUD.showAdded(to: self.view, animated: true)
+            hud.mode = MBProgressHUDMode.indeterminate
+        
+            currentUser.saveInBackground() {
+                (success, error) in
+        
+            hud.hide(animated: true)
+        
+        self.userHeaderView?.imageView?.image = image
+            }
+        }
     }
     
     func updateSearchResults(for searchController: UISearchController)
@@ -192,9 +391,40 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
     // MARK: Parse query
     
     override func queryForTable() -> PFQuery<PFObject> {
+        
+        if isSearching == true {
+            var query:PFQuery = PFQuery(className: "_User")
+            query.order(byAscending: "username")
+            
+            if let text:String = searchController?.searchBar.text {
+                query.whereKey("username", matchesRegex: text, modifiers: "i")
+            }
+            
+            if objects != nil && objects!.count == 0 {
+                query.cachePolicy = PFCachePolicy.cacheThenNetwork
+            }
+            
+            return query
+        }
+        
         var query:PFQuery = PFQuery(className:"Post")
         query.includeKey("user")
         query.order(byDescending: "createdAt")
+        
+        if let user = self.user
+        {
+            query.whereKey("user", equalTo: user)
+        }
+        else
+        {
+            if let currentUser = PFUser.current()
+            {
+                var followerQuery:PFQuery = PFQuery(className: "User_Follow")
+                followerQuery.whereKey("follower", equalTo: currentUser)
+                
+                query.whereKey("user", matchesKey: "user", in: followerQuery)
+            }
+        }
         
         if objects != nil && objects!.count == 0 {
             query.cachePolicy = PFCachePolicy.cacheThenNetwork
@@ -216,6 +446,19 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
         }
         
         cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? PostTableViewCell
+        
+        if isSearching == true
+        {
+            var cell:PFTableViewCell? = tableView.dequeueReusableCell(withIdentifier: userCellIdentifier, for: indexPath) as? PFTableViewCell
+            
+            if cell == nil {
+                cell = PFTableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: userCellIdentifier)
+            }
+            
+            cell?.textLabel?.text = object?["username"] as? String
+            
+            return cell
+        }
         
         if cell == nil {
             cell = Bundle.main.loadNibNamed(nibName, owner: self, options: nil)?[0] as? PostTableViewCell
@@ -252,5 +495,22 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
         }
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        if(isSearching == false)
+        {
+            return
+        }
+        
+        searchController?.isActive = false
+        
+        if let user = self.object(at: indexPath) as? PFUser
+        {
+            var streamVC:StreamViewController = StreamViewController(style: UITableView.Style.plain, className: "Post", user: user)
+            
+            self.navigationController?.pushViewController(streamVC, animated: true)
+        }
     }
 }

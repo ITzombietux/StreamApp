@@ -388,7 +388,11 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "init"]
 - !private ["So20UIFocusItemContainerP", "makeKeyAndVisible"]
 - !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So31UIImagePickerControllerDelegateP", "init"]
+- !private ["So31UIImagePickerControllerDelegateP", "title"]
 - !private ["So22UINavigationControllerC", "init"]
+- !private ["So30UINavigationControllerDelegateP", "init"]
+- !private ["So30UINavigationControllerDelegateP", "title"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "PFUser"]
 - !private ["So30UIPasteConfigurationSupportingP", "Parse"]
@@ -476,6 +480,8 @@ depends-member:
 - !private ["So8UIScreenC", "main"]
 - !private ["So20UIScrollViewDelegateP", "init"]
 - !private ["So20UIScrollViewDelegateP", "title"]
+- !private ["So23UISearchResultsUpdatingP", "init"]
+- !private ["So23UISearchResultsUpdatingP", "title"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "title"]
 - !private ["So21UITableViewControllerC", "init"]
@@ -625,12 +631,15 @@ depends-nominal:
 - !private "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
 - !private "So20UIFocusItemContainerP"
+- !private "So31UIImagePickerControllerDelegateP"
 - !private "So22UINavigationControllerC"
+- !private "So30UINavigationControllerDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So8UIScreenC"
 - !private "So20UIScrollViewDelegateP"
+- !private "So23UISearchResultsUpdatingP"
 - !private "So16UIStateRestoringP"
 - !private "So21UITableViewControllerC"
 - !private "So21UITableViewDataSourceP"

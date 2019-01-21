@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserHeaderView"
+provides-nominal:
+- "10StreamsApp14UserHeaderViewC"
+provides-member:
+- ["10StreamsApp14UserHeaderViewC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Bundle"
+- "CGRect"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- !private "StringLiteralType"
+- "UIButton"
+- "UIImageView"
+- "UILabel"
+- "UIView"
+- "UserHeaderView"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["So8NSBundleC", "loadNibNamed"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So15CALayerDelegateP", "Bundle"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "followButton"]
+- !private ["So15CALayerDelegateP", "imageView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "numberFollowersLabel"]
+- !private ["So15CALayerDelegateP", "numberPostsLabel"]
+- !private ["So15CALayerDelegateP", "setupNib"]
+- !private ["So15CALayerDelegateP", "userNameLabel"]
+- !private ["So15CALayerDelegateP", "viewWithTag"]
+- !private ["s7CVarArgP", "Bundle"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "followButton"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadNibNamed"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "numberFollowersLabel"]
+- !private ["s7CVarArgP", "numberPostsLabel"]
+- !private ["s7CVarArgP", "setupNib"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userNameLabel"]
+- !private ["s7CVarArgP", "viewWithTag"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "followButton"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadNibNamed"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "numberFollowersLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "numberPostsLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setupNib"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWithTag"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "followButton"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadNibNamed"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "numberFollowersLabel"]
+- !private ["s23CustomStringConvertibleP", "numberPostsLabel"]
+- !private ["s23CustomStringConvertibleP", "setupNib"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userNameLabel"]
+- !private ["s23CustomStringConvertibleP", "viewWithTag"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Bundle"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "followButton"]
+- !private ["SQ", "imageView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "loadNibNamed"]
+- !private ["SQ", "main"]
+- !private ["SQ", "numberFollowersLabel"]
+- !private ["SQ", "numberPostsLabel"]
+- !private ["SQ", "setupNib"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "userNameLabel"]
+- !private ["SQ", "viewWithTag"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Bundle"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "followButton"]
+- !private ["SH", "imageView"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "loadNibNamed"]
+- !private ["SH", "main"]
+- !private ["SH", "numberFollowersLabel"]
+- !private ["SH", "numberPostsLabel"]
+- !private ["SH", "setupNib"]
+- !private ["SH", "subscript"]
+- !private ["SH", "userNameLabel"]
+- !private ["SH", "viewWithTag"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "Bundle"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "followButton"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "numberFollowersLabel"]
+- !private ["So8NSCodingP", "numberPostsLabel"]
+- !private ["So8NSCodingP", "setupNib"]
+- !private ["So8NSCodingP", "userNameLabel"]
+- !private ["So8NSCodingP", "viewWithTag"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "followButton"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "loadNibNamed"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "numberFollowersLabel"]
+- ["So8NSObjectC", "numberPostsLabel"]
+- ["So8NSObjectC", "setupNib"]
+- ["So8NSObjectC", "userNameLabel"]
+- !private ["So8NSObjectC", "viewWithTag"]
+- !private ["So8NSObjectP", "Bundle"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "followButton"]
+- !private ["So8NSObjectP", "imageView"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "loadNibNamed"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "numberFollowersLabel"]
+- !private ["So8NSObjectP", "numberPostsLabel"]
+- !private ["So8NSObjectP", "setupNib"]
+- !private ["So8NSObjectP", "userNameLabel"]
+- !private ["So8NSObjectP", "viewWithTag"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "Bundle"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "followButton"]
+- !private ["So29UIAccessibilityIdentificationP", "imageView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "numberFollowersLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "numberPostsLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "setupNib"]
+- !private ["So29UIAccessibilityIdentificationP", "userNameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "viewWithTag"]
+- !private ["So12UIAppearanceP", "Bundle"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "followButton"]
+- !private ["So12UIAppearanceP", "imageView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "numberFollowersLabel"]
+- !private ["So12UIAppearanceP", "numberPostsLabel"]
+- !private ["So12UIAppearanceP", "setupNib"]
+- !private ["So12UIAppearanceP", "userNameLabel"]
+- !private ["So12UIAppearanceP", "viewWithTag"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "followButton"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "numberFollowersLabel"]
+- !private ["So21UIAppearanceContainerP", "numberPostsLabel"]
+- !private ["So21UIAppearanceContainerP", "setupNib"]
+- !private ["So21UIAppearanceContainerP", "userNameLabel"]
+- !private ["So21UIAppearanceContainerP", "viewWithTag"]
+- !private ["So17UICoordinateSpaceP", "Bundle"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "followButton"]
+- !private ["So17UICoordinateSpaceP", "imageView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "numberFollowersLabel"]
+- !private ["So17UICoordinateSpaceP", "numberPostsLabel"]
+- !private ["So17UICoordinateSpaceP", "setupNib"]
+- !private ["So17UICoordinateSpaceP", "userNameLabel"]
+- !private ["So17UICoordinateSpaceP", "viewWithTag"]
+- !private ["So13UIDynamicItemP", "Bundle"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "followButton"]
+- !private ["So13UIDynamicItemP", "imageView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "numberFollowersLabel"]
+- !private ["So13UIDynamicItemP", "numberPostsLabel"]
+- !private ["So13UIDynamicItemP", "setupNib"]
+- !private ["So13UIDynamicItemP", "userNameLabel"]
+- !private ["So13UIDynamicItemP", "viewWithTag"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "followButton"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "numberFollowersLabel"]
+- !private ["So18UIFocusEnvironmentP", "numberPostsLabel"]
+- !private ["So18UIFocusEnvironmentP", "setupNib"]
+- !private ["So18UIFocusEnvironmentP", "userNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewWithTag"]
+- !private ["So11UIFocusItemP", "Bundle"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "followButton"]
+- !private ["So11UIFocusItemP", "imageView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "numberFollowersLabel"]
+- !private ["So11UIFocusItemP", "numberPostsLabel"]
+- !private ["So11UIFocusItemP", "setupNib"]
+- !private ["So11UIFocusItemP", "userNameLabel"]
+- !private ["So11UIFocusItemP", "viewWithTag"]
+- !private ["So20UIFocusItemContainerP", "Bundle"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "followButton"]
+- !private ["So20UIFocusItemContainerP", "imageView"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "numberFollowersLabel"]
+- !private ["So20UIFocusItemContainerP", "numberPostsLabel"]
+- !private ["So20UIFocusItemContainerP", "setupNib"]
+- !private ["So20UIFocusItemContainerP", "userNameLabel"]
+- !private ["So20UIFocusItemContainerP", "viewWithTag"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "followButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberFollowersLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberPostsLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "userNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWithTag"]
+- !private ["So11UIResponderC", "Bundle"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "followButton"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "numberFollowersLabel"]
+- ["So11UIResponderC", "numberPostsLabel"]
+- ["So11UIResponderC", "setupNib"]
+- ["So11UIResponderC", "userNameLabel"]
+- !private ["So11UIResponderC", "viewWithTag"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "followButton"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "numberFollowersLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "numberPostsLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "setupNib"]
+- !private ["So30UIResponderStandardEditActionsP", "userNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWithTag"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "followButton"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "numberFollowersLabel"]
+- !private ["So18UITraitEnvironmentP", "numberPostsLabel"]
+- !private ["So18UITraitEnvironmentP", "setupNib"]
+- !private ["So18UITraitEnvironmentP", "userNameLabel"]
+- !private ["So18UITraitEnvironmentP", "viewWithTag"]
+- !private ["So23UIUserActivityRestoringP", "Bundle"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "followButton"]
+- !private ["So23UIUserActivityRestoringP", "imageView"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "numberFollowersLabel"]
+- !private ["So23UIUserActivityRestoringP", "numberPostsLabel"]
+- !private ["So23UIUserActivityRestoringP", "setupNib"]
+- !private ["So23UIUserActivityRestoringP", "userNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "viewWithTag"]
+- !private ["So6UIViewC", "Bundle"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "UIView"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- ["So6UIViewC", "followButton"]
+- ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "numberFollowersLabel"]
+- ["So6UIViewC", "numberPostsLabel"]
+- ["So6UIViewC", "setupNib"]
+- ["So6UIViewC", "userNameLabel"]
+- !private ["So6UIViewC", "viewWithTag"]
+- !private ["10StreamsApp14UserHeaderViewC", "Bundle"]
+- ["10StreamsApp14UserHeaderViewC", "CGRect"]
+- ["10StreamsApp14UserHeaderViewC", "NSCoder"]
+- ["10StreamsApp14UserHeaderViewC", "UIButton"]
+- ["10StreamsApp14UserHeaderViewC", "UIImageView"]
+- ["10StreamsApp14UserHeaderViewC", "UILabel"]
+- !private ["10StreamsApp14UserHeaderViewC", "UIView"]
+- !private ["10StreamsApp14UserHeaderViewC", "addSubview"]
+- ["10StreamsApp14UserHeaderViewC", "followButton"]
+- ["10StreamsApp14UserHeaderViewC", "imageView"]
+- ["10StreamsApp14UserHeaderViewC", "init"]
+- ["10StreamsApp14UserHeaderViewC", "numberFollowersLabel"]
+- ["10StreamsApp14UserHeaderViewC", "numberPostsLabel"]
+- ["10StreamsApp14UserHeaderViewC", "setupNib"]
+- ["10StreamsApp14UserHeaderViewC", "userNameLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Bundle"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "followButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "imageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberFollowersLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberPostsLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "userNameLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "viewWithTag"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "followButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadNibNamed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberFollowersLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberPostsLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWithTag"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So8NSBundleC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10StreamsApp14UserHeaderViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Modules/DateToolsSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers/DateToolsSwift-umbrella.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFTextField.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFLogInView_Private.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFTableViewCell.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPurchaseTableViewCell.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCollectionViewCell.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPolygon.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSession.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/mac/Documents/StreamsApp/StreamsApp-Bridging-Header.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFDecoder.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFEncoder.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProductTableViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQueryTableViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFLogInViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQueryCollectionViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSignUpViewController.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/ParseUIConstants.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Headers/DateToolsSwift-Swift.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadResult.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFImageView.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFLogInView.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSignUpView.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules/module.modulemap"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/mac/Documents/StreamsApp/DerivedData/StreamsApp/Build/Products/Debug-iphonesimulator/DateToolsSwift/DateToolsSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f614bbd4d178f2db6b699b83025171b7"
