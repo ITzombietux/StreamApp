@@ -12,8 +12,8 @@
 	<string>DateToolsSwift</string>
 	<string>FBSDKCoreKit</string>
 	<string>CoreServices</string>
-	<string>os</string>
 	<string>MBProgressHUD</string>
+	<string>os</string>
 	<string>UIKit</string>
 	<string>sys</string>
 	<string>CoreLocation</string>
